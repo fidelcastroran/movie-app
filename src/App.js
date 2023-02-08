@@ -20,7 +20,6 @@ function App() {
     getMovies();
   },[])
   
-
   return (
     <div className="App">
       <h1>Movies</h1>
