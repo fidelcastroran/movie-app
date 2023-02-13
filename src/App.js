@@ -30,15 +30,18 @@ class App extends Component {
     const filteredMovies = movies.filter(movie => {
       return movie.name.toLowerCase().includes(searchfield.toLowerCase());
     })
+    
     return !movies.length ?
       <h1>Loading</h1> :
       (
-        <div>
-          <h1>MOVIES...... </h1>
+        <div className="App">
+          <h1>CLASSIC MOVIES...... </h1>
           <SearchBox searchChange={this.onSearchChange} />
+          <div className='main'>
           {/* <Scroll> */}
           <CardList movies={filteredMovies} />
           {/* </Scroll> */}
+          </div>
         </div>
       );
   }

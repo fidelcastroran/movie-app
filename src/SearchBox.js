@@ -5,7 +5,7 @@ const SearchBox = ({ searchfield, searchChange }) => {
   return (
     <div className='Searchbox'>
       <input
-       style={{color: "red"}}
+       style={{color: "black"}}
         type='search'
         placeholder='search movies'
         onChange={searchChange}
