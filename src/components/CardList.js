@@ -9,11 +9,10 @@ const CardList = ({ movies }) => {
           console.log(user,i,'CardList')
           return (
             <Card
-             
               id={movies[i].id}
               name={user.name}
               img_link={movies[i].img_link}
-              rating={movies[i].imdb_rating}
+              rating={user.imdb_rating}
               />
           );
         })
