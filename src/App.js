@@ -32,7 +32,6 @@ function App() {
   console.log('fmovies', filteredMovies)
   console.log('movie', movies)
   
-
   return (
     <div className="App">
     <header className='header'>
