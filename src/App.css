@@ -14,11 +14,12 @@
 
 body{
   background-color: var(--background-color);
-  overflow: hidden;
+  overflow: auto;
 }
 
 .main{
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  margin-left: 65px;
 }
